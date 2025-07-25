@@ -12,12 +12,13 @@ namespace Test_jenkins
         {
             int a=10, b=20;
             int c = a + b;
-            Console.WriteLine("Addition:",c);
+            Console.WriteLine("Addition:"+c);
         }
         static void Main(string[] args)
         {
             Program program = new Program();
             program.Addition();
+            Console.ReadLine();
         }
     }
 }
